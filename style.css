@@ -59,7 +59,7 @@ main
     width: 100vw;
     height: 7.5vh;
     background-color: #252e35;
-    z-index: 1;
+    z-index: 100;
 }
 
 .navbar > .button
