@@ -1,0 +1,171 @@
+/* Full Reset */
+*
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.06em;
+    box-sizing: border-box;
+}
+
+/* Tags */
+body
+{
+    overscroll-behavior: none;
+}
+
+main
+{
+    padding: 4% 22%;
+    width: 100vw;
+    height: 92.5vh;
+    overflow-y: scroll;
+}
+
+/* Classes */
+.navbar
+{
+    position: sticky;
+    display: flex;
+    gap: 4%;
+    padding: 0 6%;
+    width: 100vw;
+    height: 7.5vh;
+    box-sizing: border-box;
+    background-color: #252e35;
+    z-index: 1;
+}
+
+.navbar > .button
+{
+    padding: 2.15vh 0;
+    width: 7%;
+    height: 100%;
+    font-size: 2.5vh;
+    color: white;
+    background-color: #3d5365;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar > .button:hover
+{
+    background-color: #364755;
+}
+
+.navbar > .dropdown
+{
+    width: 10%;
+}
+
+.navbar > .dropdown > .label-container
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #2d3a45;
+}
+
+.navbar > .dropdown:hover > .label-container
+{
+    background-color: #29343d;
+}
+
+.navbar > .dropdown > .label-container > .label
+{
+    width: 100%;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+}
+
+.navbar > .dropdown > .contents
+{
+    display: none;
+    border: 1px solid white;
+    width: max-content;
+}
+
+.navbar > .dropdown:hover > .contents
+{
+    display: block;
+}
+
+.navbar > .dropdown > .contents > .link
+{
+    display: block;
+    padding: 1.8vh 0;
+    width: 15vw;
+    font-size: 2vh;
+    color: white;
+    background-color: #334452;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar > .dropdown > .contents > .link:hover
+{
+    background-color: #364b5c;
+}
+
+.title
+{
+    margin-bottom: 4%;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.content
+{
+    z-index: 1;
+}
+
+.large-image
+{
+    margin-bottom: 4%;
+    height: 60vh;
+    background-color: red;
+}
+
+.small-image-left
+{
+    margin: 1.2vh 1.2vw 1.2vh 0;
+    width: 24vw;
+    height: 40vh;
+    background-color: blue;
+    float: left;
+}
+
+.small-image-right
+{
+    margin: 1.2vh 0 1.2vh 1.2vw;
+    width: 24vw;
+    height: 40vh;
+    background-color: blue;
+    float: right;
+}
+
+.paragraph
+{
+    font-size: 2.5vh;
+    text-indent: 6vh;
+}
+
+.secret
+{
+    position: absolute;
+    width: 6%;
+    height: 8%;
+    background: linear-gradient(#e66465, #9198e5);
+    background-image: url(../assets/secret.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
