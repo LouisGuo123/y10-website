@@ -38,7 +38,7 @@ main
     height: 7.5vh;
     box-sizing: border-box;
     background-color: #252e35;
-    z-index: 1;
+    z-index: 100;
 }
 
 .navbar > .button
